@@ -40,3 +40,10 @@ for (let i = 0; i < ef.length; i++) {
 function changeEffect(event) {
    effect = event.target.value;
 }
+
+
+
+function showSlides(n) {
+  slider.src = img_src[n];
+  slider.classList.add("slider");
+}
